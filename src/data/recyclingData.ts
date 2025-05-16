@@ -1272,21 +1272,244 @@ export interface RecyclingItem {
     },
   
     {
-      id: 'dg1',
-      name: 'Pañuelos usados',
-      category: 'Desechos generales',
-      recyclable: false,
-      description: 'Papel higiénico o pañuelos faciales',
-      disposalInstructions: 'Depositar en caneca negra para no reciclables. Nunca reciclar papel higiénico usado.'
+        id: 'dg1',
+        name: 'Pañuelos usados',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Papel higiénico o pañuelos faciales',
+        disposalInstructions: 'Caneca NEGRA: Nunca reciclar papel higiénico usado por contaminación biológica'
     },
-
     {
-      id: 'dg30',
-      name: 'Cepillos de dientes',
-      category: 'Desechos generales',
-      recyclable: false,
-      description: 'Plástico no reciclable',
-      disposalInstructions: 'Depositar en caneca negra para no reciclables. Algunas marcas tienen programas de reciclaje específico.'
+        id: 'dg2',
+        name: 'Toallas sanitarias',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Productos femeninos usados',
+        disposalInstructions: 'Caneca NEGRA: Envolver bien antes de desechar'
+    },
+    {
+        id: 'dg3',
+        name: 'Pañales desechables',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Pañales infantiles o para adultos',
+        disposalInstructions: 'Caneca NEGRA: Preferiblemente en bolsa separada y bien cerrada'
+    },
+    {
+        id: 'dg4',
+        name: 'Cepillos de dientes',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Cepillos dentales comunes',
+        disposalInstructions: 'Caneca NEGRA: Algunas marcas tienen programas especiales (consultar)'
+    },
+    {
+        id: 'dg5',
+        name: 'Rasuradoras desechables',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Maquinillas de afeitar',
+        disposalInstructions: 'Caneca NEGRA: Envolver en papel para evitar cortes'
+    },
+    {
+        id: 'dg6',
+        name: 'Colillas de cigarrillo',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Filtros de tabaco usados',
+        disposalInstructions: 'Caneca NEGRA: Apagar completamente primero'
+    },
+    {
+        id: 'dg7',
+        name: 'Cinta adhesiva',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Cinta de embalar o scotch',
+        disposalInstructions: 'Caneca NEGRA: No es reciclable por sus componentes químicos'
+    },
+    {
+        id: 'dg8',
+        name: 'Papel encerado',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Papel para alimentos con cera',
+        disposalInstructions: 'Caneca NEGRA: Contaminaría el reciclaje de papel'
+    },
+    {
+        id: 'dg9',
+        name: 'Fotografías',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Fotos impresas tradicionales',
+        disposalInstructions: 'Caneca NEGRA: Contienen químicos no reciclables'
+    },
+    {
+        id: 'dg10',
+        name: 'Esponjas de cocina',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Esponjas sintéticas usadas',
+        disposalInstructions: 'Caneca NEGRA: No son reciclables por su composición'
+    },
+    {
+        id: 'dg11',
+        name: 'Vasos desechables sucios',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Vasos de plástico/papel con residuos',
+        disposalInstructions: 'Caneca NEGRA: Solo van a BLANCA si están completamente limpios'
+    },
+    {
+        id: 'dg12',
+        name: 'Papel carbón',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Papel autocopiativo',
+        disposalInstructions: 'Caneca NEGRA: Contiene químicos especiales'
+    },
+    {
+        id: 'dg13',
+        name: 'Calzado viejo',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Zapatos y zapatillas rotas',
+        disposalInstructions: 'Caneca NEGRA: Algunas ONGs aceptan calzado en buen estado'
+    },
+    {
+        id: 'dg14',
+        name: 'Pelo humano',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Cabello de cortes o cepillos',
+        disposalInstructions: 'Caneca NEGRA: Alternativamente puede compostarse en grandes cantidades'
+    },
+    {
+        id: 'dg15',
+        name: 'Cenizas de carbón',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Restos de fogatas o chimeneas',
+        disposalInstructions: 'Caneca NEGRA: Enfriar completamente antes de desechar'
+    },
+    {
+        id: 'dg16',
+        name: 'Polvo de barrer',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Mezcla de tierra y pequeños residuos',
+        disposalInstructions: 'Caneca NEGRA: No es compostable por contaminantes'
+    },
+    {
+        id: 'dg17',
+        name: 'Paños de limpieza sucios',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Trapo con productos químicos',
+        disposalInstructions: 'Caneca NEGRA: Contienen residuos contaminantes'
+    },
+    {
+        id: 'dg18',
+        name: 'Etiquetas adhesivas',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Pegatinas y stickers',
+        disposalInstructions: 'Caneca NEGRA: El adhesivo contamina el reciclaje'
+    },
+    {
+        id: 'dg19',
+        name: 'Bolígrafos rotos',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Plumas y marcadores gastados',
+        disposalInstructions: 'Caneca NEGRA: Algunas marcas tienen programas de recolección'
+    },
+    {
+        id: 'dg20',
+        name: 'Lentes de contacto',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Lentes desechables usados',
+        disposalInstructions: 'Caneca NEGRA: Programas especiales en algunas ópticas'
+    },
+    {
+        id: 'dg21',
+        name: 'Chicles usados',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Goma de mascar gastada',
+        disposalInstructions: 'Caneca NEGRA: Envolver en papel antes de desechar'
+    },
+    {
+        id: 'dg22',
+        name: 'Cortinas de baño',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Cortinas plásticas viejas',
+        disposalInstructions: 'Caneca NEGRA: Algunos centros reciben PVC para reciclaje especial'
+    },
+    {
+        id: 'dg23',
+        name: 'Algodón con maquillaje',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Discos desmaquillantes usados',
+        disposalInstructions: 'Caneca NEGRA: Contaminado con productos químicos'
+    },
+    {
+        id: 'dg24',
+        name: 'Mascarillas desechables',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Cubrebocas usados',
+        disposalInstructions: 'Caneca NEGRA: Cortar las cintas antes de desechar'
+    },
+    {
+        id: 'dg25',
+        name: 'Preservativos usados',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Condones y protectores sexuales',
+        disposalInstructions: 'Caneca NEGRA: Nunca tirar por el inodoro'
+    },
+    {
+        id: 'dg26',
+        name: 'Hisopos de algodón',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Cotton buds o aplicadores',
+        disposalInstructions: 'Caneca NEGRA: El plástico no es reciclable en este formato'
+    },
+    {
+        id: 'dg27',
+        name: 'Cápsulas de café usadas',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Cápsulas mono-dosis gastadas',
+        disposalInstructions: 'Caneca NEGRA: Algunas marcas tienen programas de recolección'
+    },
+    {
+        id: 'dg28',
+        name: 'Pinturas secas',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Restos de pintura solidificada',
+        disposalInstructions: 'Caneca NEGRA: Líquidos llevar a punto limpio'
+    },
+    {
+        id: 'dg29',
+        name: 'Tiritas usadas',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Curitas y apósitos médicos',
+        disposalInstructions: 'Caneca NEGRA: Desechar en bolsa sellada'
+    },
+    {
+        id: 'dg30',
+        name: 'Cenizas de cigarrillo',
+        category: 'Desechos generales',
+        recyclable: false,
+        description: 'Restos de tabaco quemado',
+        disposalInstructions: 'Caneca NEGRA: Mojar antes de desechar para evitar incendios'
     }
   ];
   
